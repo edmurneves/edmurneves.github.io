@@ -1,36 +1,49 @@
-.super-mario {
-    width: 200px;
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .goomba {
-    width: 100px;
-    position: absolute;
-    z-index: 2;
-    left: 50px;
-    top: 400px;
-  }
-  
-  .baloon {
-      position: absolute;
-      z-index: 3;
-      left: 300px;
-  
-  }
-  
-  .speach {
-    font-size: 25px;
-    position: absolute;
-    z-index: 4;
-    left: 330px;
-    top: 120px;
-  }
-  
-  .bowser {
-    width: 200px;
-    position: absolute;
-    z-index: 5;
-    left: 500px;
-    top: 270px;
-  }
+body {
+  background-color: #497e42;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+h2, h3 {
+  color: rgb(1, 43, 1);
+}
+strong {
+  text-decoration: underline;
+  color: white;   
+}
+span {
+  font-size: 20px;
+}
+.hard{
+  font-size: 20px;
+              
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.image-conteiner {
+  height: 420px;
+  position:relative;
+}
+.foto {
+  float: left;
+  padding: 10px;
+  background-color: white;
+
+}
+.text-conteiner {
+  position: absolute;
+  top: 100px;
+  left: 330px;
+  right: 10px;
+}
+li {
+  width: 280px;
+}
+ul li:nth-child(odd) {
+  background-color: rgb(168, 199, 106);
+}
