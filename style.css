@@ -36,7 +36,8 @@ a {
 
 }
 .text-conteiner {
-  position: absolute;
+  position: absolute; 
+  width: 500px; 
   top: 100px;
   left: 330px;
   right: 10px;
