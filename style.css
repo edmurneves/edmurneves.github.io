@@ -1,50 +1,97 @@
-body {
-  background-color: #497e42;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
 }
-h1 {
-  color: white;
-  text-align: center;
-}
-h2, h3 {
-  color: rgb(1, 43, 1);
-}
-strong {
-  text-decoration: underline;
-  color: white;   
-}
-span {
-  font-size: 20px;
-}
-.hard{
-  font-size: 20px;
-              
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-.image-conteiner {
-  height: 420px;
-  position:relative;
-}
-.foto {
-  float: left;
-  padding: 10px;
-  background-color: white;
 
+.header-img {
+  width: 70px;
 }
-.text-conteiner {
-  position: absolute; 
-  width: 500px; 
-  top: 100px;
-  left: 330px;
-  right: 10px;
+
+.gallery-img {
+  width: 150px;
 }
-li {
-  width: 280px;
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
 }
-ul li:nth-child(odd) {
-  background-color: rgb(168, 199, 106);
+
+.header-container {
+  display: flex;
+  background-color: #323333;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
+
+h1 {
+  color: rgb(238, 238, 238);
+  font-size: 1.3rem;
+}
+
+h3 {
+  color: rgb(194, 194, 194);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+h3:hover {
+  color: #0fa36b;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  width: 100%;
+}
+
+p {
+  color: #232525;
+  font-size: 1rem;
+  text-align: justify;
+  text-indent: 20px;
+  padding: 10px;
+  width: 90%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto 13px auto;
+  width: 50%;
+}
+
+.gallery-card {
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  border-radius: 15px;
+  box-shadow: 2px 3px rgba(161, 161, 161, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  justify-content: center;
+  margin: 0 10px 15px 0;
+  width: 180px;
+}
+.perfil-img {
+  border-radius: 100%;
+  padding: 20px;
+}
+
+ hr {
+  margin-top: 10px;
+  width: 25%;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+} 
